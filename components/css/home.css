@@ -1,0 +1,198 @@
+body {    
+    font-size:18px;
+    font-family: 'Open Sans', sans-serif;  
+}
+
+.banner {
+    width:100%;
+}
+
+.main {
+    background: #fefefe;
+    padding:3em 20px;
+    width: 940px;
+    margin:0 auto;
+}
+
+.main-title {
+    font-size: 2em;
+    text-align: center;
+    margin:0 0 1em;
+    clear:left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main p{
+    margin: 0 0 1em;
+    text-align: justify;
+    
+}
+
+.main strong {
+    font-weight: bold;
+}
+
+.main em {
+    font-style: italic;
+}
+
+#missao {
+    font-family: 'PT Serif', serif;
+    font-size: 22px;
+    text-align: center;
+
+}
+
+.content-map{
+    width: 940px;
+    margin:0 auto;
+}
+
+.map {
+    padding: 3em 0;
+    background: linear-gradient( #fefe, #888);
+}
+
+.map p {
+    text-align: center;
+    margin: 0 0 2em;
+}
+
+
+.benefits {
+    padding: 3em 0;
+    background-color: #888;    
+}
+
+.utensils {
+    width:120px;
+    float:left; /*Essa propriedade faz o elemento flutuar na tela. usamos o clear:left no elemento pai para que nao afete os outros elementos;*/
+    margin: 0 20px 20px 0;
+}
+
+.content-benefits {
+    width: 640px;
+    margin:0 auto;
+}
+.items-benefits {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.imgbenefits {
+    width:60%;
+    transition:400ms ease-in-out;
+    box-shadow: 10px 10px 5px #000;
+}
+
+.imgbenefits:hover {
+    opacity: 0.5;
+}
+
+.items{
+    line-height: 1.5;
+    font-style: italic;
+}
+
+.items:before {
+    content:'★'
+}
+
+.items:first-child {
+    font-weight: bold;
+}
+
+
+.video {
+    width: 560px;
+    margin:2em auto;
+}
+
+@media screen and (max-width:480px) {
+    body {    
+        font-size:14px;
+    }
+
+    .main, .content-benefits, .content-map, .video {
+        width: auto;
+    }
+
+    .main {
+        padding-top:2em;
+    }
+
+    h1 img{
+        text-align: center;
+
+    }
+
+    .main-title {
+        font-size: 1.5em;
+    }
+
+    .benefits {
+        margin: auto;
+        padding: 2em 0;
+    }
+
+    .items-benefits, .imgbenefits{
+        width: 90%;        
+    }
+
+    .imgbenefits, .items-benefits {
+        margin-left: 10px;        
+    }
+
+    #missao {
+        font-size: 16px;
+    }
+
+    .video{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width:780px) {
+    body {    
+        font-size:16px;
+    }
+
+    .main, .content-benefits, .content-map, .video {
+        width: auto;
+    }
+
+    h1 img{
+        text-align: center;
+
+    }
+
+    .main-title {
+        font-size: 1.5em;
+    }
+
+    .benefits {
+        margin: auto;
+        padding-top: 5px;
+
+    }
+
+    .items-benefits, .imgbenefits{
+        width: 90%;        
+    }
+
+    .imgbenefits, .items-benefits {
+        margin-left: 10px;        
+    }
+
+    #missao {
+        font-size: 16px;
+    }
+
+    .video{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
